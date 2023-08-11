@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Notes App</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="MainTitle">Notes App</h1>
+        <p>Be more organized and make your life <span>Better</span></p>
+        <em style="color:grey;">Note: break lines and whitespace are counted in this input field</em>
+        <em style="color:grey;">Note2: the checkBox mode does not support the first Note</em>
+    </div>
+    <div class="InputFieldWithMoreNotes">
+        <div id="inputStyle">
+            <textarea name="input" id="userInput"></textarea>
+            <i class="NoteTypes">
+                <img src="/Images/checkbox.svg" alt="" id="checkbox">
+                <img src="/Images/keyboard.svg" alt="" id="normaltext">
+            </i>
+            <button type="button" id="save">save</button>
+        </div>
+    </div>
+    <p id="demo"></p>
+    <script src="index.js"></script>
+</body>
+</html>
